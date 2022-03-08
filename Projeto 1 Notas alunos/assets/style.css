@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url('https://canaldoensino.com.br/blog/wp-content/uploads/2017/11/provas-preambulares.jpg');
+    background-color: #000000;
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .linkedin-logo {
+    width: 50px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+  }
