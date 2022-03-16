@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev - Aula 08</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+<body>
+    
+
+    <div class="container">
+        <img src="https://www.seekpng.com/png/full/13-138123_digimon-logo-vector-by-3prsta-d9a4yb9-digimon.png" class="page-logo"
+            alt="">
+        <h1 class="page-title" id="text">Super Trunfo</h1>
+        <div class='wrap wrapper2'>
+            <button class="purple" onclick="sortearCarta()" id="btnSortear">Sortear <span>Carta</span></button>
+        </div>
+        <form id="form">
+            <h2 class="">Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div>
+                    <div id="carta-jogador">
+                        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                            style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div>
+                    <div id="carta-maquina" class="carta"><img
+                            src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
+                            style=" width: inherit; height: inherit; position: absolute;"></div>
+                </div>
+            </div>
+            <button class="button-jogar purple" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <div id="resultado"></div>
+        </form>
+    </div>
+
+    <script src="./src/css/js/script.js"></script>
+
+</body>
+</html>
