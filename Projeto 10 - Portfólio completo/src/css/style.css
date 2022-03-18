@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #1E0821 27.26%, #872494 96.03%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.titulo h5 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column; 
+   background: linear-gradient(236.85deg, #4B1452 27.26%, #A52CB5 96.03%);
+  color: #ECD6C4;
+  margin-top: 54px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 32px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.projetos li {
+  font-weight: 400;
+  font-size: 18px;
+  color: #1C1C1C;
+  font-weight: bold;
+  list-style: none;
+  line-height: 32px
+}
+
+.link {
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #ECD6C4;
+}
+
+.link2 {
+    text-decoration: none;
+}
+
+/* Icones */
+
+.social-network {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    margin: 0;
+    padding: 5px;
+    font-size: 30px;
+}
+
+
+
+.fa{
+    font-size: 30pt;
+    color: black;
+    padding: 10px;
+}
+
+.fa-linkedin-square:hover {
+    color: #0A66C2;
+}
+
+.fa-instagram:hover{
+    color: #C13584;
+}
+
+.fa-github-square:hover {
+    color: rgb(36, 34, 34);
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #4B2A65 27.26%, #8B52B7 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .tema button {
+  background: #1C1C1C;
+  color: #FFFFFF;
+  border: 2px solid #F7F7F7;
+}
